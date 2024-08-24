@@ -39,13 +39,18 @@ section{
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3.5vw;
+    text-align: center;
 }
 section.normal{
     background-color: white;
     color: black;
 }
-section.imagem{
-
+section#img01{
+    background-image: url(../imagens/fundo001.jpg);
+    background-position: right center;
+}
+section#img02{
+    background-image: url(../imagens/fundo002.jpg);
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.267);
