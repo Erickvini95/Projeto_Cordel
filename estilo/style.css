@@ -39,23 +39,32 @@ section{
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3.5vw;
-    text-align: center;
 }
 section.normal{
     background-color: white;
     color: black;
 }
+section.imagem{
+    color: white;
+    box-shadow: inset 6px 3px 13px 0px black;
+    background-attachment: fixed;
+}
 section#img01{
     background-image: url(../imagens/fundo001.jpg);
     background-position: right center;
+    background-size: cover;
 }
 section#img02{
     background-image: url(../imagens/fundo002.jpg);
+    background-size: cover;
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.596);
     display: inline-block;
     padding: 7px;
+}
+section > p{
+    padding-bottom: 2em;
 }
 a{
     color: white;
